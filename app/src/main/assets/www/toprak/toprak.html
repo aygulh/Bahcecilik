@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!--link rel="icon" href="favicon.ico" -->
+
+        <title>Bahçecilik-101 Temel Bilgiler</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="../navbar.css" rel="stylesheet">
+
+        <style>
+            body  {
+                background-color: #F9DE73;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+
+    <div class="container">
+
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Toprak</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <!--li class="active"><a href="#toprak">Toprak</a></li -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toprak<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#toprak-iyilestirme">Toprak İyileştirme</a></li>
+                                <li><a href="#fazla-su-etkileri">Fazla Suyun Canlı-Cansız Kısma Etkileri</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">En çok eksikliği görülen mikro besin maddelerine örnekler</li>
+                                <li><a href="#">Demir eksikliği (Kloroz) </a></li>
+                                <li><a href="#">Bor eksikliğinde</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toprak ile ilgili başka bir menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#sulama">Sulama</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meyvecilik <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#hastalik">Hastalıklar</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+
+        <!-- Main component for a primary marketing message or call to action -->
+        <!--div class="container" -->
+            <div class="jumbotron"><h1 id=toprak>Toprak</h1> </div>
+            <div class="jumbotron">
+                <h3>Toprak nedir? </h3>
+                <p>Kayaların ve organik maddelerin türlü çaptaki ayrışma ürünlerinden meydana gelen, içerisinde geniş bir canlılar alemi barındıran, bitkilere durak ve besin kaynağı görevi gören bir maddedir.</p>
+
+                <img src="images/image001.png" class="img-responsive">
+            </div>
+
+            <div class="jumbotron">
+                <h3>Toprak türleri </h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Kumlu toprak</li>
+                    <li class="list-group-item">Killi toprak</li>
+                    <li class="list-group-item">Balçık</li>
+                </ul>
+                Karşılaştırmalı özellikleri:
+                <br>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr> <th>Özellikler</th> <th>Kum</th> <th>Balçık</th> <th>Kil</th> </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="active"> <th scope=row>Süzeklik</th> <td>Aşırı</td> <td>Orta</td> <td>Kötü</td> </tr>
+                        <tr> <th scope=row>Sıkılık</th> <td>Gevşek</td> <td>Orta</td> <td>Pek sıkı</td> </tr>
+                        <tr class="success"> <th scope=row>Faydalanabilir su kapasitesi</th> <td>Düşük</td> <td>Yüksek</td> <td>Orta</td> </tr>
+                        <tr> <th scope=row>Su tutma gücü</th> <td>Düşük</td> <td>Orta</td> <td>Yüksek</td> </tr>
+                        <tr class="warning"> <th scope=row>Durgun su oluşumu</th> <td>Yok</td> <td>Yok</td> <td>Var</td> </tr>
+                        <tr> <th scope=row>Havalanma</th> <td>İyi</td> <td>Orta</td> <td>Kötü</td> </tr>
+                        <tr class="danger"> <th scope=row>Isınma</th> <td>Erken</td> <td>Orta</td> <td>Geç</td> </tr>
+                        <tr> <th scope=row>İşlenebilirlik</th> <td>Kolay</td> <td>Orta</td> <td>Zoe</td> </tr>
+                        <tr class="info"> <th scope=row>Besin maddesince</th> <td>Fakir</td> <td>Zengin</td> <td>Orta</td> </tr>
+                        <tr> <th scope=row>Yıkanma hızı</th> <td>Hızlı</td> <td>Orta</td> <td>Yavaş</td> </tr>
+                        <tr class="success"> <th scope=row>Kimyasal gübre etkisi</th> <td>Hızla geçici</td> <td>Orta sürede kalıcı</td> <td>Uzun sürede kalıcı</td> </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+
+            <div class="jumbotron">
+
+                <h3>Toprak ıslahı - İyileştirme </h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Çapalama (mekanik mücadele)</li>
+                    <li class="list-group-item">Gübreleme</li>
+                    <li class="list-group-item">Dere mili ilavesi (kum ilavesi)</li>
+                </ul>
+            </div>
+            <div class="jumbotron">
+                <h2 id="toprak-suyu">Toprak suyu</h2>
+                <p>
+                    Üç tip su var. <br>
+                <ul class="list-group">
+                    <li class="list-group-item">Higroskopik su (ölü su, bitki faydalanamaz. Kilde var)</li>
+                    <li class="list-group-item">Sızan su (Kumda)</li>
+                    <li class="list-group-item">Kapiler su (Homojen dağılan su, bitki için faydalı)</li>
+                </ul>
+                </p>
+                <h3 id="higroskopik-su"><u>Higroskopik su</u></h3>
+                <p>Toprak parçacıkları tarafından iç ve dış yüzeylerde çok sıkı bir şekilde tutulan sudur. Enerji birimi ile ifade edilecek olursa 50 atmosferden daha büyük bir kuvvetle tutulan sudur. Bitkiler en çok 15 atmosfer kadar kök emme basıncına sahip olduklarından higroskopik sudan faydalanamazlar. Bu nedenle higroskopik suya ölü su adı verilir.</p>
+                <h3 id="sizan-su"><u>Sızan su</u></h3>
+                <p>Serbest direnaj koşulları altında, yerçekiminin etkisi ile toprak boşluklarında tutulamayıp kapilar olmayan  boşluklardan geçerek aşağıya doğru hareket eden sudur.</p>
+                <h3 id="kapilar-su"><u>Kapilar su</u></h3>
+                <p>Toprak boşluklar sisteminde tutulan, organizmalar için yaşamsal olan yarayışlı sudur.</p>
+            </div>
+
+            <div class="jumbotron">
+                <h3>Fazla suyun canlı ve cansız kısma etkileri</h3>
+                <p>Cansız Bölüme Zararları</p>
+                <p>Toprağın su ile dolu olmayan gözeneklerinin tamamına yakınında hava bulunmaktadır. Yoğun sulamanın ardından hava önemli ölçüde azalır.</p>
+                <p>Canlı Bölüme Zararları</p>
+                <p>Havanın az suyun fazla olduğu topraklarda bakteri ve mantarlar, dolayısı ile hastalık etmenleri çoğalır.</p>
+            </div>
+
+            <div class="jumbotron">
+                <h3>Bitki Gelişmesine Uygun Ortalama Bir Toprakta Çeşitli Maddelerin Hakim Olarak Oranları</h3>
+                <p>Mineral Toprak</p>
+                <p>İnorganiklere örnek kayatuzu, kum verilebilir.</p>
+
+                <img src="images/image002.png" class="img-responsive">
+                <div class="alert alert-danger">
+                    <ul class="list-group">
+                        <li class="list-group-item">Asit sevmeyen bitkiler için ideal</li>
+                        <li class="list-group-item">Kireç oranı fazla</li>
+                        <li class="list-group-item">Rengi beyaza doğru</li>
+                    </ul>
+                </div>
+
+                <div class="alert alert-info">
+                    <strong>NOT:</strong> Değerler ortalama olup fikir vermek üzeredir. Esasında toprağın hakim bileşimi hava şartlarına ve işlenme şekline bağlı olarak fazlası ile değişir.
+                </div>
+
+                <p>Organik Toprak</p>
+
+                <img src="images/image003.png" class="img-responsive">
+
+                <div class="alert alert-danger"> Çok fazla asitlidir </div>
+
+            </div>
+            <div class="jumbotron">
+                <h3>Toprak Organik Maddeleri</h3>
+
+                <p>Organik maddeler, bitkisel ve hayvansal kalıntılardan meydana gelmiştir. En önemli özelliği dinamik olmasıdır (sürekli çalışan). Toprağa esmer rengini verir (Siyaha yakın ise organik maddelerce zengin). Toprak organik maddesinin esas kısmını humus oluşturur. Humus oldukça dayanıklı, kahverengi olup bitkisel ve hayvansal kalıntılardan meydana gelmiştir.</p>
+
+                <img src="images/image004.png" class="img-responsive">
+
+                <p>Tarım il ve ilçe müdürlüklerinden toprak testleri ile arazideki toprak cinsi öğrenilebilir.</p>
+
+                <img src="images/image005.png" class="img-responsive">
+
+                <p>Fidan dikilecek çukura önce en alta humus konulup sonra üstüne topral eklenirse daha iyi olur.</p>
+            </div>
+
+        <!-- /div -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    </body>
+</html>
