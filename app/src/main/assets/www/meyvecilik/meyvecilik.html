@@ -1,112 +1,455 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--link rel="icon" href="favicon.ico" -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!--link rel="icon" href="favicon.ico" -->
 
-    <title>Bahçecilik-101 Temel Bilgiler</title>
+        <title>Bahçecilik-101 Temel Bilgiler</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="../navbar.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="../navbar.css" rel="stylesheet">
 
-    <style>body  {background-color: #F1B9B3;}</style>
+        <style>body  {background-color: #F1B9B3;}</style>
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-
-<div class="container">
-
-    <!-- Static navbar -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Gübreleme</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <!--li class="active"><a href="#toprak">Toprak</a></li -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gübreleme<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#toprak-iyilestirme">Toprak İyileştirme</a></li>
-                            <li><a href="#fazla-su-etkileri">Fazla Suyun Canlı-Cansız Kısma Etkileri</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">En çok eksikliği görülen mikro besin maddelerine örnekler</li>
-                            <li><a href="#">Demir eksikliği (Kloroz) </a></li>
-                            <li><a href="#">Bor eksikliğinde</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gübreleme ile ilgili başka bir menu <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#sulama">Gübreleme - 2</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yapay gübreler <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#hastalik">Hastalıklar</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-    </nav>
 
     <div class="container">
-        <h1 id=gubreleme>Gübreleme</h1>
-        <p>
-            Gübre çeşitleri <br>
-            İkiye ayrılır.
-            <ul>
-                <li>Doğal gübre (organik) <br>
-                <p> a.	Çiftlik gübresi. Çiftlik gübresinin şerbeti önemli. %50 oranında su ile karıştırılarak verilir ve çok faydalıdır.
-        b.	Kompost : Yumurta kabukları, meyva kabukları, biçilen çim, ağaç kabukları vs. nin açılan çukurlarda biriktirilmesi ile elde edilir. Sıcak havada yapılır. Boşluklu olmalı, ara ara karıştırılmalı, nemli olacak ve açılan çukurun dibi su geçirmeyi engelleyecek şekilde kaplanmalı. 4-6 ayda hazır olur.  Kışın olmaz.
-        c.	Yeşil gübre: Baklagil familyası bitkilerinin (fiğ, yonca) kök bölgelerinde yumrular var ve bakteri ve mantarlar ortak çalışır, kökte azot fiksasyonu yaparlar. Kökteki yumrular azot doludur.</p>
-                </li>
-                <li>Yapay gübre (inorganik)</li>
+
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Menü</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <!--li class="active"><a href="#toprak">Toprak</a></li -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meyvecilik<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#toprak-iyilestirme">Toprak İyileştirme</a></li>
+                                <li><a href="#fazla-su-etkileri">Fazla Suyun Canlı-Cansız Kısma Etkileri</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">En çok eksikliği görülen mikro besin maddelerine örnekler</li>
+                                <li><a href="#">Demir eksikliği (Kloroz) </a></li>
+                                <li><a href="#">Bor eksikliğinde</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gübreleme ile ilgili başka bir menu <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#sulama">Gübreleme - 2</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yapay gübreler <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#hastalik">Hastalıklar</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+
+        <div class="jumbotron">
+            <h1 id="meyvecilik">Meyvecilik</h1>
+        </div>
+
+        <div class="jumbotron">
+
+            <h2><strong>İlk dikim, budama ve terbiye</strong></h2>
+
+            <h3><strong>Meyve ağaçlarında budama</strong></h3>
+
+            <p><strong>Budama Nedir?</strong></p>
+
+            <p>Meyve ağaçlarının düzgün ve kuvvetli taç oluşturmalarını, uzun zaman kaliteli ve bol ürün vermelerini,  verimden düşen ağaçların tekrar verimli hale getirilmeleri için, ağaçların toprak üstü organlarına uygulanan kesme, bükme, tomurcuk, sürgün ve yaprak alma işlemlerinin tümüne <strong>budama</strong> denir.</p>
+
+            <p><strong>Budamanın Amaçları:</strong></p>
+            <ul class="list-group">
+                <li class="list-group-item"><p>Meyve ağaçlarında gövde üzerinde düzenli ve dengeli bir taç oluşumunu sağlamak (Iskelet).</p></li>
+                <li class="list-group-item"><p>Meyve ağaçlarının bakımını, meyvelerin derimini (hasat) ve zararla savaş gibi teknik işlemleri kolaylaştırmak (Kontrol).</p></li>
+                <li class="list-group-item"><p>Kurumuş, hastalıklı, ekolojik ve mekanik etkilerle zararlanmış, kırılmış dallar ile birbirlerine zarar veren, dar açılı dalları yok etmek.</p></li>
+                <li class="list-group-item"><p>Meyve kalitesini iyileştirmek.</p></li>
+                <li class="list-group-item"><p>Işığın ağacın iç kısımlarına daha iyi girmesini sağlamak ve kaliteli yaprak yüzeyini arttırmak.</p></li>
             </ul>
-        </p>
 
-    </div>
-</div> <!-- /container -->
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="temel-presipler"><strong>Budamanın temel prensipleri</strong></h2>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Şekillendirme devresinde budama işlemleri sürgün dallarına uygulanmalı, zorunlu olmadıkça meyve dallarına dokunulmamalıdır (Önce iskelet sonra meyve).</p></li>
+                <li class="list-group-item"><p>Budanacak olan ağaç toplu olarak incelenmeli ayrıca her dal ayrı ayrı ele alınmalıdır.</p></li>
+                <li class="list-group-item"><p>Gövde üzerinde tacı oluşturan ana dallar aynı yükseklikte ve eşit kuvvette olmalıdır. Ana dallar merkezi eksen etrafında eşit açılarla dağıtılmalı. Ana dalların gövde ile yaptıkları açılar 45  - 60o olmalıdır.</p></li>
+                <li class="list-group-item"><p>Ne kadar dik büyüme o kadar az ve geç meyvelenme, ne kadar geniş açılı büyüme o kadar çok meyvelenme getirir.</p></li>
+                <li class="list-group-item"><p>Dalları kısa kesmek vejetatif gelişmeyi, hiç kesmemek yada uzun bırakmak generatif gelişme faaliyetlerini teşvik eder.</p></li>
+                <li class="list-group-item"><p>Aynı noktadan yan yana büyüyen dalların gelişmesine izin verilmemelidir. Geniş açılı dal bırakılarak dar açılı olan çıkartılmalıdır.</p></li>
+                <li class="list-group-item"><p>Bir kesim yapar iken dikkat edilmesi gereken bazı noktalar vardır. Genellikle budamacılar kesim noktalarını doğru olarak tesbit etseler bile, kesim hataları yapılmaktadır.</p>
+                    <p><strong>Tepe kesimi yaparken:</strong>  Dışa bakan bir göz üzerinden kesim yapılmalıdır. Çapı 0.5-2 cm olanlarda %3’lük bir eğim verilmelidir. Çapı 2 cm’nin üzerinde olan kesimlerde kesilen yüzey mutlaka aşı macunu ile kaplanmalıdır.</p>
+                    <p><strong>Seyreltme kesimi:</strong> Çıkarılacak olan dalın gövde ile birleştiği yerden, besin maddelerinin depolandığı şişkinliğin hemen üzerinden alınması gerekmektedir. Böylece kesim noktasında oluşan yara yeri çabucak kapanır.</p>
+                    <img src="images/image016.png" class="img-responsive">
+                    <p>Seyreltme kesimi, doğru-yanlış</p>
+                    <p>Kesim noktasında tırnak bırakmamaya özen gösterilmelidir. Tırnaklı kesimler kolay kapanmadığı için bu noktadan aşağıya doğru kurumalar olmakta ve kapanmayan yara yerleri hastalık ve zararlıların ağaca girişini kolaylaştırmaktadır.</p></li>
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
 
-</body>
+                <li class="list-group-item"><p>Budamanın bir ışık yönetimi olduğu unutulmamalıdır. En önemli noktalardan birisinin ağacın dengesini bozmamak kaydı ile iç kısımlara mümkün olduğu kadar çok ışık girmesini sağlamaktır.</p></li>
+            </ul>
+
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="budama-teknikleri"><strong>Budama teknikleri</strong></strong></h2>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Ağacın bir yanında dal oluşmadığı durumlarda:</p>
+                    <img src="images/image017.png" class="img-responsive">
+                    Kabuğun çizilmesi<br>
+                    <p>Uyuyan gözün hemen altından <u>steril bir jilet</u> ile ortalama 1 cm boyunda  <u>kabuk</u> çizilir (Oduna zarar verilmemeli, bir sonraki dönem cizik kapanacak şekilde).</p>
+                </li>
+                <li class="list-group-item">
+                    <p>Bir sürgünün çok kuvvetli veya yaşlanmış olduğu durumlarda yapılması gereken budama:</p>
+                    <p>Böyle durumlarda  üçgen kesim tekniği uygulanır.</p>
+                    <img src="images/image018.png" class="img-responsive">
+                    Üçgen kesim tekniği
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="ideal-fidan"><strong>İdeal fidan</strong></strong></h2>
+            <p>1.5 m boyunda ve çapı 1.5-2 cm olan, geniş açılı yan dal ihtiva eden fidanlardır.</p>
+            <img src="images/image019.png" class="img-responsive">
+            İdeal Fidan
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="ilk-dikim-budama"><strong>İlk dikim, budama ver terbiye</strong></strong></h2>
+
+            <p><strong>1 Yaşındaki Fidanın Latent Dönemi</strong></p>
+
+            <img src="images/image020.png" class="img-responsive">
+            Bir yaşındaki fidanın latent dönemi
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Fidanlar aşı noktaları toprak yüzeyinden 5-10 cm yukarıda kalacak şekilde dikilmelidir.</p></li>
+                <li class="list-group-item"><p>Aşı noktası güneye bakmalıdır (Hakim rüzgarlar yönünde dikim yapılmalıdır).</p></li>
+                <li class="list-group-item"><p>Fidanda dengeyi sağlamak amacıyla son göz aşı noktasının ters yönünde bırakılmalıdır.</p></li>
+                <li class="list-group-item"><p>İlk dikim yılında yapılacak olan budamada lider boyu 75-80 cm’den budanır. Böylece yarı bodur bir meyve ağacı elde etmiş oluruz. Kesim daha yukarıdan yapılır ise çeşitli kontrol, bakım ve onarım işlemleri zorlaşabilir.</p></li>
+                <li class="list-group-item"><p>Liderde tepe kesimi (dal oluşturamama veya hastalık gibi istisnai durmlar hariç) sadece dikim esnasında yapılır.</p></li>
+                <li class="list-group-item"><p>Dikim ile birlikte destek sistemi kurulmuş olmalıdır. Lider, uygun noktadan destek sistemine bağlanarak sabit durması sağlanır.</p></li>
+            </ul>
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="biryasfidanda-vejetasyon"><strong>Bir yaş fidanda vejetasyon dönemi terbiye ve budama</strong></h2>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>75-80 cm’den tepesi budanmış fidanlarda ilk bahar ile birlikte birinci katı oluşturacak gözler ve yan dallar meydana gelir. Bu sürgünlerden tepe noktasına en yakın olan dal ikinci lider dal olarak seçilir. Daha sonra oluşan sürgünlerden 4-5 adet iyi dal seçilir.</p></li>
+                <li class="list-group-item"><p>Seçilenlerin dışındakiler çıkartılır. Liderle rekabet edenler çıkartılır.</p></li>
+                <li class="list-group-item"><p>40 cm’nin altında kalan dallar çıkartılır.</p></li>
+                <li class="list-group-item"><p>Dik büyüyen dallar lider ile geniş açı yapacak şekilde desteklenir. Bu amaçla çamaşır mandalı, çıtalar, çubuklar kullanılabilir.</p></li>
+            </ul>
+            <img src="images/image021.png" class="img-responsive">
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="ikinciyil-budama"><strong>İkinci yıl budama terbiye işleri</strong></h2>
+
+            <img src="images/image022.png" class="img-responsive">
+            <img src="images/image023.png" class="img-responsive">
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Meyve bahçelerinde liderin tepesi istisnai durumlar hariç (yan dal oluşmaması, yetersiz dallanma, cılız büyüme) dikim yılında budandıktan sonra tekrar kesilmez.</p></li>
+                <li class="list-group-item"><p>Liderin ucunda veya dallarda çiçek tomurcuğu oluşmuş ise uzaklaştırmak gerekir. Aksi taktirde çiçek tohumu liderin gelişimesini etkiler.</p></li>
+                <li class="list-group-item"><p>İkinci yılda yan dallarda 1/3-1/4 oranında kısaltma yapılmalıdır. Bu işlem dallar üzerinde ikinci dal oluşumunu sağlar.</p></li>
+                <li class="list-group-item"><p>Toprak seviyesinden itibaren 40-45 cm’den çıkan sürgünler uzaklaştırılır.</p></li>
+                <li class="list-group-item"><p>Özellikle kuvvetli gelişen çeşitlerde gelişmeyi azaltmak için daha az budama yapılmalı, her kesimin sürgün büyümesini teşvik ettiği unutulmamalıdır.</p></li>
+                <li class="list-group-item"><p>Dik sürgünler, kırılmış ve hastalıklı dallar çıkartılmalı.</p></li>
+                <li class="list-group-item"><p>İkinci yılda da ağaçlara açı genişletme işlemi tekrar yapılabilir.</p></li>
+            </ul>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="ucuncuyil-budama"><strong>Üçüncü yıl budama terbiye işleri</strong></h2>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Üçüncü yıl ağaçlar budanırken iskelet yapısına bakılır. Uygun bir iskelete sahip ise meyve gözlerine dikkat edilmelidir. Var ise uzaklaştırılmalıdır.</p></li>
+                <li class="list-group-item"><p>Yan dallarda 1/3 – 1/4 oranında kısaltma yapılabilir.</p></li>
+                <li class="list-group-item"><p>Dik sürgünler ve aşırı güçlü dallar çıkartılmalıdır.</p></li>
+                <li class="list-group-item"><p>Toprak seviyesinden itibaren 40 – 45 cm mesafeden çıkan dallar yok edilmelidir.</p></li>
+                <li class="list-group-item"><p>Önceki yıllarda yapıldığı gibi dalların açıları genişletilir.</p></li>
+            </ul>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="dorduncuyas-budama"><strong>Dördüncü yaş fidanda budama terbiye işleri</strong></h2>
+
+            <p><strong>(Verim çağı budaması)</strong> </p>
+
+            <p><u>Yarı bodur meyve ağaçlarının verim çağındaki boyu 3-3.5 m arasında olmalıdır. Ağaçlar bu yüksekliğe 4-5 büyüme sezonu sonunda getirilmelidir. Bu yüksekliğe daha çabuk ulaşan ağaçlarda lider baskı altına alınmalıdır.</u></p>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p>4. Büyüme sezonunda ağaç dengeli bir taç  oluşturmuş olur. Bu yıldan sonra kat iskeletini oluşturan dallar korunmalıdır.</p>
+                    <img src="images/image024.png" class="img-responsive">
+                </li>
+                <li class="list-group-item"><p>Sık dallar, kurumuş ve kırılmış dallar çıkartılmalıdır.</p></li>
+                <li class="list-group-item"><p><u>Yan dallarda, zayıf dal üzerinden kısaltma kesimleri yapılmalıdır. Bu budama verime tam yatan ağaçlarda en çok kullanılan kesim şeklidir. Bu kesimler sonucunda çok daha verimli dallar elde edilir.</u></p></li>
+                <li class="list-group-item">
+                    <p>Geri kalan budama işlemleri, alt iskeleti oluşturan dalların periyodik olarak yenilenmesinden ibarettir. Yaşlanmış veya meyve yükünden olumsuz etkilenmiş olan bu dallar kısa kesimler veya üçgen kesimler ile çıkartılır.</p>
+                    <img src="images/image025.png" class="img-responsive">
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="budama-zamanlari"><strong>Budama zamanları</strong></h2>
+
+            <p><strong>Kış budama zamanı</strong></p>
+
+            <p>(Yaprak dökümünden açımına kadar-uyanma)</p>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Seyreltme</p></li>
+                <li class="list-group-item"><p>Kısaltma</p></li>
+            </ul>
+
+            <p><strong>Yaz budama zamanı</strong></p>
+
+            <p>(Yaprak açımından dökümüne kadar-meyvenin kalitesini hedefliyoruz)</p>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Bilezik alma</p></li>
+                <li class="list-group-item"><p>Çizme</p></li>
+                <li class="list-group-item"><p>Eğme-bükme-açı alma</p></li>
+                <li class="list-group-item"><p>Filiz alma</p></li>
+            </ul>
+
+            <p><strong>Yaz budaması</strong></p>
+
+            <p>Yaz boyunca meyve ağaçlarında (ilk bahar dahil) sürgünlerin seyreltilmeleri, filiz alma, eğme-bükme, dalların açılarının genişletilmesi işlemlerinin tümüdür.</p>
+
+            <p><strong>Yaz budamasında amaç</strong></p>
+
+            <p>Meyvelerin kalitelerini arttırmak, daha iyi renklenmelerini sağlamak, kış aylarında yapılacak işlemleri azaltmak, derim işlemlerini kolaylaştırmak.</p>
+
+            <p><strong>Kış budaması</strong></p>
+
+            <p>Kışı ılık geçen yerlerde meyve ağaçlarının kış dinlenmesine girmelerinden hemen sonraki süre budama bakımından en uygun zamandır. Ancak kışı sert geçen yerlerde şiddetli donlardan önce budamanın yapılması doğru değildir.</p>
+
+            <p><strong>Kış budamasında amaç</strong></p>
+
+            <p>Ana dallarda,</p>
+            <ul class="list-group">
+                <li class="list-group-item"><p> * birim alandaki verim oranını arttırmak,</p></li>
+                <li class="list-group-item"><p> * kültürel işlemleri kolaylaştırmak,</p></li>
+                <li class="list-group-item"><p> * ağaçları kontrol altına almak,</p></li>
+                <li class="list-group-item"><p> * iskelet oluşturma,</p></li>
+                <li class="list-group-item"><p> * iskelet sağlamlaştırma,</p></li>
+                <li class="list-group-item"><p> * gelişmeye hazırlık</p></li>
+            </ul>
+            <p>olarak sıralanabilir.</p>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="bilezik-alma"><strong>Bilezik alma</strong></h2>
+
+            <p>Sürgünün uygun bir yerinden kabuğun çepe çevre kesilip çıkarılması işlemidir. Kabuk kısmı kesilip çıkarılırken odun dokusuna  zarar verilmez. Bileziğin genişliği 3-4 mm kadar olmalıdır. Bunu belirlemede yaranın kapanabilmesi esas alınır. Bilezik çok geniş alınır ise yara kapanamaz, ağaç zarar görür.</p>
+
+            <img src="images/image026.jpg" class="img-responsive">
+
+            <br>
+
+            <p><strong>Bilezik almada amaç</strong></p>
+
+            <p>Örneğin asmada <u>yıllık sürgünlerde</u> salkımların altından tane tutumundan sonra alınan bilezik, tane ve salkımların irileşmesini sağlar.</p>
+
+            <p><strong>Etki şekli</strong></p>
+
+            <p>Yapraklarda özümlenen maddelerin bilezik alınan yerin üzerindeki organlarda birikip alt kısma geçmemesine dayanmaktadır. Ancak tüm sürgün ve dallarda bilezik alınması, besin maddelerinin üst kısımlarda toplanması nedeni ile köklerin zayıflamasına neden olur.</p>
+
+            <p><strong>Çizme</strong></p>
+
+            <p>Uyuyan gözü uyandırmak için veya tomurcuğun sürmesini hızlandırmak için tomurcuğun altından kabuğun çizilmesi işlemidir.</p>
+
+            <p><strong>Filiz alma</strong></p>
+
+            <p>Genç ağaçlarda belirli bir bölgede gereğinden fazla sürgün oluşmuş ise bunların fazla büyümeden koparılmaları gerekmektedir. Özellikle genç ağaçlarda (1-7 yaş) uç kısımlarda oluşan fazla sürgünlerin filiz alma yöntemi ile uzaklaştırılması gerekmektedir. Böylece fidana düzgün bir şekil verilmiş ve birim alandaki kalite arttırılmış olur.</p>
+
+        </div>
+
+        <div class="jumbotron">
+            <h2 id="ayva-yetistiriciligi"><strong>Ayva Yetiştiriciliği</strong></h2>
+
+            <p><strong>Ayvanın Ekolojik İstekleri:</strong></p>
+
+            <p><strong>Toprak:</strong></p>
+
+            <p>(Kökler yüzlek, yukarıda, yayılmış ve kılcal)</p>
+
+            <p>Kumlu, tınlı (kum oranı yüksek), geçirgen, sıcak topraklarda yetişir. Geçirgen olmayan topraklarda meyve kalitesi düşer, hastalık riski artar.</p>
+
+            <p><strong>Sulama:</strong></p>
+
+            <p>Özellikle kışları soğuk geçen yerlerde toprak su kapasitesine dikkat edilmelidir. Aşırı su topraktan uzaklaştırılmalıdır. Vejetasyon dönemi yapılacak olan sulamalarda toprağın içince hava boşlukları kalacak şekilde sulanmalıdır.</p>
+
+            <p><strong>Gübreleme:</strong></p>
+
+            <p>Ayvanın kökleri derine gitmediğinden besin maddelerini toprağın üst kısımından alır. Bu nedenle toprağın üst kısmı besin maddesince zenginleştirilmelidir.</p>
+
+            <p><strong>Budama:</strong></p>
+
+            <p>Ayvalar genellikle “Goble” veya “Doruk Dallı” şekilde taçlandırılırlar. “Goble” da gövde alçaktan taçlandırılır ve ileriki yıllarda da uç almalarla tacın fazla yükselmesine izin verilmez.</p>
+
+            <p><u>Ayvanın budanmasında dikkat edilecek en önemli husus:</u> ayvada meyveler genellikle sürgün uçlarında oluşur. Bu sebeple verim çağındaki bir ayva ağacında gereğinden fazla uç alma yapılmamalıdır. Aksi halde ağaç tamamen meyvesiz kalabilir.</p>
+
+            <p><strong>Üretimi:</strong></p>
+
+            <p>(Tohum ile, çelik ile, aşı ile, dip sürgünü ile)
+
+            <p>Olgun tohumlar uygun ortamlarda (1-Perlit, 2-Kum, Torf-steril olmalı) çimlendirilerek üretilebilir (sonbaharda).</p>
+
+            <p><strong>Çelik ile üretim:</strong></p>
+
+            <p>Sonbaharda yapılır. Dört göz mutlaka barındırmalıdır. Bir yıllık odundan hazırlanmalıdır (Bir yıllık  odunun dip kısmında iki yıllık sürgüne birleştiği parça olursa daha iyi olur. Çelik yarı yarıya gömülmeli, dört göz varsa iki göz gömülmelidir. Bu tutma yüzdesini arttırır). 16-20 haftada köklenir. Isı önemlidir, sıcaklık optimumda olmalı. 18-20 C arası uygundur (dipcikli, ökçeli ve adi çelik).</p>
+
+            <p><strong>Dip sürgünü ile üretim:</strong></p>
+
+            <p>Dip sürgünlerden 3/10 oranına dikkat edilerek çöğürler (kökten aşısız çıkan sürgünler) sökülür. Aşırı sökülürse kök zarar görebilir. Bu çöğürler kökü ile birlikte sökülür.</p>
+
+            <p><strong>Aşı ile üretim:</strong></p>
+
+            <p>(Göz aşısısından daha iyi randıman alınır. Göz henüz uyanmamış olmalı. Sürgün göz olacak). Kambiyum tabakasına kadar  çizilir ancak kambiyuma zarar verilmemelidir. Haziran civarında yapılır. Rafya ile T şeklinde çizilen anaça yerleştirilen göz sarılır. 21 günde tutması gerekir. Göz T’nin üzerine taşıyorsa taşan parça kesilir. Kambiyum kambiyuma denk gelecektir.</p>
+
+            <p>Göz aşısı Haziran, Temmuz ve Ağustos aylarında yapılır. Kalem aşısı ise lantent dönemde yapılır.</p>
+
+            <p>Sert çekirdekliler sert çekirdeklilerle, tek çekirdekliler tek çekirdeklilerle, etli çekirdekliler etli çekirdeklilerle aşılanabilir.</p>
+
+            <p>Göz aşısı tuttuktan sonra anaç kademeli olarak göz üstüne gelene kadar tepesi kesilir. Aşı anaçtan göz olarak alınır. Altlık yabani olacak. Kambiyum kambiyuma gelir. Vejetasyon döneminde yapılır. Göz (yada çelik) alınan yer hastalıklı olmamalıdır. Ayvanın dışında bir şey ile aşılanacak olursa aynı cinsten meyve seçilmelidir.</p>
+
+            <p><strong>Ayva ne zaman hasad edilmeli?</strong></p>
+
+            <p>Ayvanın olgunlaştığını: Meyve kabuğunun yeşil renginin sarıya dönmeye başlaması ve havlı çeşitlerde havın kolayca silinmesi ile anlaşılır. Erken toplanan meyveler çoğunlukla susuz, tatsız ve boğucu olur.</p>
+
+            <p><strong>Ayvada görülen hastalık ve zararlılar</strong></p>
+
+            <p><strong>Bakteriyel hastalıklar:</strong></p>
+
+            <p><strong>Ateş yanıklığı hastalığı:</strong></p>
+
+            <p>Hastalıklı dallar, yapraklar ve çiçek salkımları kurumuş bir görünüm alır, kahverengileşip kıvrılır.</p>
+
+            <p>En tipik belirtisi enfekteli bitki aksamının ateşten yanmış bir görünüm almasıdır. Özellikle gövdede bakteriyel akıntı görülür (siyaha yakın bir renkte).</p>
+
+            <p><strong>Tedavi</strong></p>
+            <p>Bakteriden kaynaklanıyor. Toprakta su fazla ve hava az ise meydana gelebilir. Çelikten veya kullandığımız aletlerin steril olmamasından  kaynaklanmış olabilir (aspirinli su veya biraz çamaşır suyu veya alkol kullanarak dezenfekte edilmeli). Diğer bir sebep; yakın bir bölgede arıcılık yapılıyorsa,arılar aracılığı ile taşınabilir. Yeşil bit varsa onlar yapabilir. (Diğer böcekler ile birlikte) bunlarla da mücadele etmek gerekir (Kültürel önlemler).</p>
+
+            <p><strong>Kimyasal önlemler</strong></p>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Bakteri – Bakterisit (bakteri öldürücü)</p></li>
+                <li class="list-group-item"><p>Bordo bulamacı</p></li>
+            </ul>
+
+            <p><strong>Mantari Hastalıklar</strong></p>
+
+            <p><strong>Monilya –Mumyalaşma</strong></p>
+
+            <p>Monilya hastalığı genellikle ayvada şu şekilde seyreder.</p>
+
+            <p><strong>Sürgün:</strong> Özellikle sürgün üzerindeki yaprak buruşur. Sonra sürgün <u>esmerleşerek kurumaya</u> başlar. Kuruyan sürgünler yapışkan maddeler salgılar.</p>
+
+            <p><strong>Çiçek:</strong> Hasta çiçekler <u>kahverengileşir</u>.
+
+            <p><strong>Meyve:</strong> Meyve içi ve dışı kahverengiliş, çürüme başlar. Olgun meyvenin üzerinde mantar kütlesi görülür  (beyaz). Meyveler zamanla buruşur ve tümüyle kurur. Meyve ağaçta kalır, düşmez. Kuruyan meyveler dallarda uzun süre kaldığından dolayı bu meyvelere <strong>mumya</strong> meyve denir.</p>
+
+            <p><strong>Oluşma nedenleri:</strong></p>
+            <ul class="list-group">
+                <li class="list-group-item"><p>Havasızlık ve sudan</p></li>
+                <li class="list-group-item"><p>Temiz olmayan araç-gereç</p></li>
+            </ul>
+
+            <p><strong>Kültürel önlemler:</strong></p>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p>Hastalığın görüldüğü bölgelerde aşırı su tahliye edilmeli.</p></li>
+                <li class="list-group-item"><p>Topraktaki hava kalitesi yükseltilmeli.</p></li>
+                <li class="list-group-item"><p>Kullandığımız araç ve gereçler temiz tutmalıyız (steril olmalı).</p></li>
+                <li class="list-group-item"><p>Hastalığım görüldüğü yerlerde zararlılarla mücadele etmeliyiz (ölmüş dal varsa almalı).</p></li>
+                <li class="list-group-item"><p>Hastalığın görüldüğü bahçelerde ağaçlar üzerinde görünen tüm kuru dal budanıp yakılmalı. Mumyalaşarak ağaç üzerinde kalmış veya düşmüş <u>meyveler</u> toplanarak imha edilmeli.</p></li>
+            </ul>
+
+            <p><strong>Kimyasal ilaçlama:</strong></p>
+            <p>Fungus – Fungusit : seyreltilip</p>
+
+        </div>
+
+        <!--div class="jumbotron">
+            <h2 id=""><strong></strong></h2>
+
+            <ul class="list-group">
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+                <li class="list-group-item"><p></p></li>
+            </ul>
+
+        </div -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    </body>
 </html>
