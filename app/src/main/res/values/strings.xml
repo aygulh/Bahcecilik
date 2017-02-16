@@ -2,7 +2,7 @@
     <string name="app_name">Bahçecilik Temel Bilgileri</string>
     <string name="menu_settings">Ayarlar</string>
     <string name="msg_help">Yardım</string>
-    <string name="msg_helptext">Uygulamanın içeriği web sayfası formatında düzenlenmiştir. Ana sayfadaki başlıklara veya satırlara dokunularak detay sayfalara gidilebilir. Geri dönmek için Android geri tuşuna basılır. Ana ekranda geri tuşuna basılırsa programdan çıkılı.</string>
+    <string name="msg_helptext">Uygulamanın içeriği web sayfası formatında düzenlenmiştir. Ana sayfadaki başlıklara veya satırlara dokunularak detay sayfalara gidilebilir. Geri dönmek için Android geri tuşuna basılır. Ana ekranda geri tuşuna basılırsa programdan çıkılır.</string>
     <string name="msg_email">email: aygulh@gmail.com</string>
     <string name="btn_close">Kapat</string>
     <string name="menu_about">Hakkında</string>
