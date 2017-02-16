@@ -1,5 +1,6 @@
 package com.xagnhay.bahcecilik;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,14 +9,27 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.google.android.gms.analytics.Tracker;
+import com.google.android.gms.analytics.HitBuilders;
+
 public class MainActivity extends AppCompatActivity {
 
     private WebView mWebView;
+    private Tracker mTracker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // [START shared_tracker]
+        // Obtain the shared Tracker instance.
+        BahcecilikApplication application = (BahcecilikApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName(MainActivity.class.getSimpleName());
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+
 
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
@@ -45,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-/*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -61,11 +75,13 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.menu_about) {
+            Intent intent3 = new Intent(this, AboutActivity.class);
+            startActivity(intent3);
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-*/
+
 }
